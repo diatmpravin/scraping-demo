@@ -41,7 +41,7 @@ class Detail < ActiveRecord::Base
     p 'Tables details'
     p Detail
     
-    Detail.create(:name => 'test')
+    Detail.create(:name=>'test')
     
     p 'Count no of rows in table'
     p Detail.all.first
