@@ -36,21 +36,22 @@ class CoachDetail < ActiveRecord::Base
 end
 
 class Detail < ActiveRecord::Base
-
   def initialize
     p 'Tables details'
     p Detail
-    
-    Detail.create(:name=>'test')
-    
+ 
     p 'Count no of rows in table'
     p Detail.all.first
-    
   end
-
+  
+  def create
+    p 'creating data'
+    Detail.create(:name=>'test')
+  end
 end
 
 
-Detail.new
+details = Detail.new
+details.create
 CoachDetail.new
 
