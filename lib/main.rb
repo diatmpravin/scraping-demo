@@ -46,7 +46,7 @@ class Detail < ActiveRecord::Base
   
   def create
     p 'creating data'
-    Detail.create(:name=>'test')
+    @as = Detail.new({name: "test"})
   end
 end
 
