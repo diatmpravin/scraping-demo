@@ -13,22 +13,44 @@ ActiveRecord::Base.establish_connection(dbconfig)
 ActiveRecord::Base.logger = Logger.new(STDERR)
 ActiveRecord::Base.logger = Logger.new(File.open('database.log', 'a'))
 
-class Location < ActiveRecord::Base
+class CoachDetail < ActiveRecord::Base
 
   def initialize
     p 'Tables details'
-    p Location
+    p CoachDetail
+    
+    url = "http://www.junglee.com/mn/search/junglee?ie=UTF8&rh=n%3A803540031&tag=googjuhydr-21&hvadid=13852647285&hvpos=1t1&hvexid=&hvnetw=g&hvrand=1594996003696969763&hvpone=&hvptwo=&hvqmt=e&ref=pd_sl_92zll2ojv_e"
+    doc = Nokogiri::HTML(open(url))
+    doc.css(".product").each do |each_product|
+      #puts each_product.at_css("h3").text
+      @name = each_product.at_css("h3").text
+      @coach = CoachDetail.new(:name => @name, :phone => '09876', :email => 'add', :address => 'hyderabad')
+      @coach.save
+    end
     
     p 'Count no of rows in table'
-    p Location.count
+    p CoachDetail.count
+    
   end
 
 end
 
-Location.new
+class Detail < ActiveRecord::Base
 
-#url = "http://www.junglee.com/mn/search/junglee?ie=UTF8&rh=n%3A803540031&tag=googjuhydr-21&hvadid=13852647285&hvpos=1t1&hvexid=&hvnetw=g&hvrand=1594996003696969763&hvpone=&hvptwo=&hvqmt=e&ref=pd_sl_92zll2ojv_e"
-#doc = Nokogiri::HTML(open(url))
-#doc.css(".product").each do |each_product|
-#  puts each_product.at_css("h3").text
-#end
+  def initialize
+    p 'Tables details'
+    p Detail
+    
+    Detail.create(:name => 'test')
+    
+    p 'Count no of rows in table'
+    p Detail.all.first
+    
+  end
+
+end
+
+
+Detail.new
+CoachDetail.new
+
