@@ -1,7 +1,7 @@
 ## YAML Template.
 
 adapter: 'mysql'
-database: 'coach_details'
+database: 'coach'
 username: 'root'
 password: ''
 host: 'localhost'
