@@ -10,3 +10,9 @@ D, [2012-08-24T00:41:55.141592 #7263] DEBUG -- :   [1m[36mDetail Load (69.6ms)
 D, [2012-08-24T00:43:52.571398 #7288] DEBUG -- :   [1m[36mDetail Load (2.2ms)[0m  [1mSELECT `details`.* FROM `details` [0m
 D, [2012-08-24T00:46:58.792784 #7323] DEBUG -- :   [1m[36mDetail Load (2.7ms)[0m  [1mSELECT `details`.* FROM `details` [0m
 D, [2012-08-24T00:47:31.413191 #7331] DEBUG -- :   [1m[36mDetail Load (2.3ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T11:24:15.363216 #6775] DEBUG -- :   [1m[36mDetail Load (34.1ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T11:25:48.333685 #6800] DEBUG -- :   [1m[36mDetail Load (1.5ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T13:06:59.395144 #7763] DEBUG -- :   [1m[36mDetail Load (2.3ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T13:11:15.563897 #7805] DEBUG -- :   [1m[36mDetail Load (1.9ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T14:13:58.318854 #8626] DEBUG -- :   [1m[36m (2.0ms)[0m  [1mSELECT COUNT(*) FROM `details` [0m
+D, [2012-08-24T14:28:32.500639 #8897] DEBUG -- :   [1m[36m (1.6ms)[0m  [1mSELECT COUNT(*) FROM `details` [0m
