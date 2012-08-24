@@ -1,0 +1,12 @@
+D, [2012-08-23T23:31:43.175934 #6431] DEBUG -- :   [1m[36m (14.7ms)[0m  [1mSELECT COUNT(*) FROM `coach_details` [0m
+D, [2012-08-23T23:34:24.996265 #6457] DEBUG -- :   [1m[36m (3.7ms)[0m  [1mSELECT COUNT(*) FROM `coach_details` [0m
+D, [2012-08-24T00:10:32.153445 #6887] DEBUG -- :   [1m[36m (20.5ms)[0m  [1mSELECT COUNT(*) FROM `details` [0m
+D, [2012-08-24T00:13:41.882401 #6934] DEBUG -- :   [1m[36mDetail Load (3.7ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T00:14:01.008459 #6939] DEBUG -- :   [1m[36mDetail Load (2.3ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T00:29:54.790292 #7102] DEBUG -- :   [1m[36mDetail Load (122.1ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T00:30:29.328632 #7110] DEBUG -- :   [1m[36mDetail Load (321.1ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T00:33:24.443519 #7155] DEBUG -- :   [1m[36mDetail Load (2.7ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T00:41:55.141592 #7263] DEBUG -- :   [1m[36mDetail Load (69.6ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T00:43:52.571398 #7288] DEBUG -- :   [1m[36mDetail Load (2.2ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T00:46:58.792784 #7323] DEBUG -- :   [1m[36mDetail Load (2.7ms)[0m  [1mSELECT `details`.* FROM `details` [0m
+D, [2012-08-24T00:47:31.413191 #7331] DEBUG -- :   [1m[36mDetail Load (2.3ms)[0m  [1mSELECT `details`.* FROM `details` [0m
