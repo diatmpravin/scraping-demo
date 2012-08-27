@@ -400,3 +400,357 @@ D, [2012-08-25T18:17:28.083332 #16099] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMI
 D, [2012-08-25T18:17:29.046458 #16099] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
 D, [2012-08-25T18:17:29.047896 #16099] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`) VALUES (?, ?)  [["email", "robertdavison@sheppardmosocw.comMember"], ["name", "Robert Davison"]]
 D, [2012-08-25T18:17:29.048410 #16099] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:06.461320 #5545] DEBUG -- :   [1m[36mSQL (18.9ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:06.485456 #5545] DEBUG -- :   [1m[35mSQL (21.0ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Jan Abbey"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:40:06.486043 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:07.456314 #5545] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  BEGIN
+D, [2012-08-27T10:40:07.457642 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "patricia@coachanddevelop.comFounding Member"], ["name", "Patricia Abbott"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:40:07.458053 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:08.715538 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:08.716885 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "david@dhadams.co.uk Member"], ["name", "David Adams"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:40:08.717307 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:09.739578 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:09.740900 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "info@fionaadamson.comMember"], ["name", "Fiona Adamson"], ["phone", "01923 492600"], ["website", "www.fionaadamson.com"]]
+D, [2012-08-27T10:40:09.741339 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:10.780441 #5545] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:10.781948 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "info@fionaadamson.comMember"], ["name", "Clare Allen"], ["phone", "01923 492600"], ["website", "www.fionaadamson.com"]]
+D, [2012-08-27T10:40:10.782505 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:11.813810 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:11.815167 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "richarda@create-the-future.co.ukMember"], ["name", "Richard Andrews"], ["phone", "0131 561 6283"], ["website", "www.fionaadamson.com"]]
+D, [2012-08-27T10:40:11.815600 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:12.871241 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:12.872592 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "trudy@dancingleopards.comFounding Council Member"], ["name", "Trudy Arthurs"], ["phone", "028 9059 2422"], ["website", "www.dancingleopards.com"]]
+D, [2012-08-27T10:40:12.873031 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:13.919416 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:13.920749 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "jill@paradigmcollective.co.uk Member"], ["name", "Jill Ashley-Jones"], ["phone", "01684 566001"], ["website", "www.jillashley-jones.co.uk"]]
+D, [2012-08-27T10:40:13.921186 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:15.003332 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:15.004641 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "linda@aspey.comMember"], ["name", "Linda Aspey"], ["phone", "0845 170 1300"], ["website", "www.aspey.com"]]
+D, [2012-08-27T10:40:15.005198 #5545] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:16.004957 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:16.006277 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "maureen@theatkins.org.ukMember"], ["name", "Maureen Atkins"], ["phone", "0118 9732717"], ["website", "www.smartcoaching.me.uk"]]
+D, [2012-08-27T10:40:16.006724 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:16.966977 #5545] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:16.968559 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "maureen@theatkins.org.ukMember"], ["name", "Shirley Attenborough"], ["phone", "0118 9732717"], ["website", "www.smartcoaching.me.uk"]]
+D, [2012-08-27T10:40:16.969005 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:17.949852 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:17.951199 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "cb@my-coach.orgMember"], ["name", "Christina Bachini"], ["phone", "0118 9790677"], ["website", "www.my-coach.org"]]
+D, [2012-08-27T10:40:17.951731 #5545] DEBUG -- :   [1m[35m (0.2ms)[0m  COMMIT
+D, [2012-08-27T10:40:18.922952 #5545] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:18.924296 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "awnb@newtonbagshawe.co.ukFounding Member"], ["name", "Anthony Bagshawe"], ["phone", "01969 667896"], ["website", "www.my-coach.org"]]
+D, [2012-08-27T10:40:18.924741 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:19.895878 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:19.897277 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "awnb@newtonbagshawe.co.ukFounding Member"], ["name", "Adrian Bailey"], ["phone", "Please use email contact in first instance"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:19.897742 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:20.881900 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:20.883284 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "awnb@newtonbagshawe.co.ukFounding Member"], ["name", "Liz Barnes"], ["phone", "Please use email contact in first instance"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:20.883801 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:21.846473 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:21.847818 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "william@creatinginsight.co.ukMember"], ["name", "William Barron"], ["phone", "01332 224389"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:21.848245 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:22.805500 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:22.806829 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "william@creatinginsight.co.ukMember"], ["name", "Sally Baxter"], ["phone", "01332 224389"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:22.807305 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:23.757468 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:23.758815 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "nick_beard@btinternet.comMember"], ["name", "Nick Beard"], ["phone", "0118 983 6050"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:23.869744 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:24.859642 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:24.860961 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "chrissie@aimhighcoaching.co.ukMember"], ["name", "Chrissie Bedwin"], ["phone", "01773 836392"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:24.861390 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:25.903519 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:25.904885 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "chrissie@aimhighcoaching.co.ukMember"], ["name", "Annie Bennett"], ["phone", "01773 836392"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:25.905316 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:28.500369 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:28.501722 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "chrissie@aimhighcoaching.co.ukMember"], ["name", "Norinne Betjemann"], ["phone", "01773 836392"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:28.502268 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:29.467162 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:29.468473 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "neelab@article13.comMember"], ["name", "Neela Bettridge"], ["phone", "020 8840 4450"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:40:29.468903 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:30.478017 #5545] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:30.479386 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "peter@thebeechconsultancy.co.ukMember"], ["name", "Peter Blackeby"], ["phone", "08454 303021 (office)"], ["website", "www.yorkcd.co.uk"]]
+D, [2012-08-27T10:40:30.479825 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:31.561367 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:31.562708 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "amanda@amandabouchconsulting.co.ukAC Honorary Life Fellow"], ["name", "Amanda Bouch"], ["phone", "01628 635 900"], ["website", "www.yorkcd.co.uk"]]
+D, [2012-08-27T10:40:31.563145 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:32.560122 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:32.561520 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "amanda@amandabouchconsulting.co.ukAC Honorary Life Fellow"], ["name", "Jacquelyn Bownes"], ["phone", "01628 635 900"], ["website", "www.yorkcd.co.uk"]]
+D, [2012-08-27T10:40:32.561970 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:33.532560 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:33.533913 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "david@4sight.bizMember"], ["name", "David Bredin"], ["phone", "0845 3457043"], ["website", "www.yorkcd.co.uk"]]
+D, [2012-08-27T10:40:33.534340 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:34.500408 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:34.501752 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "david@4sight.bizMember"], ["name", "Jane Brendgen"], ["phone", "0845 3457043"], ["website", "www.yorkcd.co.uk"]]
+D, [2012-08-27T10:40:34.502187 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:35.474477 #5545] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  BEGIN
+D, [2012-08-27T10:40:35.475991 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "sarah-briggs@hotmail.comCombined"], ["name", "Sarah Briggs"], ["phone", "01666 825996"], ["website", "www.counselling.org"]]
+D, [2012-08-27T10:40:35.476446 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:36.465760 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:36.467132 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "Halina@brunningonline.net Founding Member"], ["name", "Halina Brunning"], ["phone", "020 8540 9609 "], ["website", "www.counselling.org"]]
+D, [2012-08-27T10:40:36.467576 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:37.442098 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:37.443455 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "kate@executive-coaching.co.ukMember + FOMr"], ["name", "Kate Buller"], ["phone", "020 7795 6556"], ["website", "www.executive-coaching.co.uk"]]
+D, [2012-08-27T10:40:37.443889 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:38.537851 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:38.539188 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "kate@executive-coaching.co.ukMember + FOMr"], ["name", "Clare Burgum"], ["phone", "020 7795 6556"], ["website", "www.executive-coaching.co.uk"]]
+D, [2012-08-27T10:40:38.539627 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:39.511985 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:39.513315 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "kate@executive-coaching.co.ukMember + FOMr"], ["name", "Joy Bussell"], ["phone", "020 7795 6556"], ["website", "www.executive-coaching.co.uk"]]
+D, [2012-08-27T10:40:39.513766 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:40.489877 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:40.491221 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "elspeth@elspethcampbell.comFounding Member"], ["name", "Elspeth Campbell"], ["phone", "020 8788 3795"], ["website", "www.executive-coaching.co.uk"]]
+D, [2012-08-27T10:40:40.491656 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:41.448387 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:41.449775 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "campbellsharon@eircom.netMember"], ["name", "Sharon Campbell"], ["phone", "354000000000"], ["website", "www.campbellconsulting.ie"]]
+D, [2012-08-27T10:40:41.450239 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:42.506193 #5545] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:42.507592 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "campbellsharon@eircom.netMember"], ["name", "Anita Chanda"], ["phone", "354000000000"], ["website", "www.campbellconsulting.ie"]]
+D, [2012-08-27T10:40:42.508043 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:43.549302 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:43.550616 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "Helen.Chapman@pelicancoaching.comFounding Member"], ["name", "Helen Chapman"], ["phone", "01943 466105"], ["website", "www.pelicancoaching.com"]]
+D, [2012-08-27T10:40:43.551064 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:44.520518 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:44.521823 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "Helen.Chapman@pelicancoaching.comFounding Member"], ["name", "Ray Charlton"], ["phone", "01943 466105"], ["website", "www.pelicancoaching.com"]]
+D, [2012-08-27T10:40:44.522327 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:45.489131 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:45.490545 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "Helen.Chapman@pelicancoaching.comFounding Member"], ["name", "Dorothea Ciniglio"], ["phone", "01943 466105"], ["website", "www.pelicancoaching.com"]]
+D, [2012-08-27T10:40:45.491015 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:46.492542 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:46.493896 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "ianclaffey@oxondon.comMember"], ["name", "Ian Claffey"], ["phone", "+44 (0)8450559600"], ["website", "www.pelicancoaching.com"]]
+D, [2012-08-27T10:40:46.494339 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:47.460439 #5545] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  BEGIN
+D, [2012-08-27T10:40:47.461757 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "info@wordsinaction.netFounding Member"], ["name", "Alison Clark"], ["phone", "01700 500489"], ["website", "www.pelicancoaching.com"]]
+D, [2012-08-27T10:40:47.462185 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:49.999085 #5545] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:50.000389 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "info@wordsinaction.netFounding Member"], ["name", "Sue Clarke"], ["phone", "01700 500489"], ["website", "www.pelicancoaching.com"]]
+D, [2012-08-27T10:40:50.000829 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:51.015332 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:51.016690 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "info@wordsinaction.netFounding Member"], ["name", "Suzanne Cleal"], ["phone", "01700 500489"], ["website", "www.pelicancoaching.com"]]
+D, [2012-08-27T10:40:51.017127 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:52.139062 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:52.140370 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "lorenzaclifford@coachange.co.ukMember"], ["name", "Lorenza Clifford"], ["phone", "01264 739 480"], ["website", "www.coachange.co.uk"]]
+D, [2012-08-27T10:40:52.140845 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:53.407585 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:53.408902 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "j.c.a@blueyonder.co.ukMember"], ["name", "Judi Conner"], ["phone", "+44 (0)208 995 5769"], ["website", "www.judiconner.com"]]
+D, [2012-08-27T10:40:53.409336 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:54.541452 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:54.542803 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "j.c.a@blueyonder.co.ukMember"], ["name", "Stephanie Conway"], ["phone", "+44 (0)208 995 5769"], ["website", "www.judiconner.com"]]
+D, [2012-08-27T10:40:54.543237 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:55.663758 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:55.665092 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "lynne@changeperspectives.comCouncil Member"], ["name", "Lynne Cooper"], ["phone", "020 8255 4244"], ["website", "www.changeperspectives.co.uk"]]
+D, [2012-08-27T10:40:55.665588 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:56.733764 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:56.735096 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "lynne@changeperspectives.comCouncil Member"], ["name", "Mary Cope"], ["phone", "020 8255 4244"], ["website", "www.changeperspectives.co.uk"]]
+D, [2012-08-27T10:40:56.735531 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:40:57.886390 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:40:57.887722 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "admin@morpheuscoaching.co.ukMember"], ["name", "Vincent Cornelius"], ["phone", "07947 884380"], ["website", "www.changeperspectives.co.uk"]]
+D, [2012-08-27T10:40:57.888149 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:40:58.999289 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:40:59.000591 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "admin@morpheuscoaching.co.ukMember"], ["name", "Judi Craddock"], ["phone", "07947 884380"], ["website", "www.changeperspectives.co.uk"]]
+D, [2012-08-27T10:40:59.001019 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:41:00.096389 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:41:00.097696 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "andycraig@stantonmarris.comMember"], ["name", "Andrew Craig"], ["phone", "+44(0)20 3008 4461"], ["website", "www.boardcoaching.com"]]
+D, [2012-08-27T10:41:00.098181 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:41:01.149995 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:41:01.151375 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "Kareen@CranstonCognition.co.ukMember"], ["name", "Kareen Cranston"], ["phone", "01727 869510"], ["website", "www.boardcoaching.com"]]
+D, [2012-08-27T10:41:01.151822 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:41:02.200959 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:41:02.202356 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "contact@nickcromwellcoaching.co.ukMember"], ["name", "Nick Cromwell"], ["phone", "020 8556 8370"], ["website", "www.boardcoaching.com"]]
+D, [2012-08-27T10:41:02.202821 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:41:03.334780 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:41:03.336091 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "contact@nickcromwellcoaching.co.ukMember"], ["name", "Edna Crosby"], ["phone", "020 8556 8370"], ["website", "www.boardcoaching.com"]]
+D, [2012-08-27T10:41:03.336536 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:41:04.405384 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:41:04.406714 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "contact@nickcromwellcoaching.co.ukMember"], ["name", "Mary Cross"], ["phone", "020 8556 8370"], ["website", "www.boardcoaching.com"]]
+D, [2012-08-27T10:41:04.407196 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:41:05.509638 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:41:05.510979 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "marycurran@coachcentre.comFounding Member"], ["name", "Mary Curran"], ["phone", "00353 1 661 2291"], ["website", "www.coachcentre.com"]]
+D, [2012-08-27T10:41:05.511426 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:41:06.617062 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:41:06.618380 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "paul@theexcellencegame.co.ukMember"], ["name", "Paul Curran"], ["phone", "00353 1 661 2291"], ["website", "www.coachcentre.com"]]
+D, [2012-08-27T10:41:06.618866 #5545] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:41:08.171068 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:41:08.172389 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "paul@theexcellencegame.co.ukMember"], ["name", "Pom Davey"], ["phone", "00353 1 661 2291"], ["website", "www.coachcentre.com"]]
+D, [2012-08-27T10:41:08.172821 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:41:09.194061 #5545] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:41:09.195408 #5545] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "paul@theexcellencegame.co.ukMember"], ["name", "Eddie Davies"], ["phone", "00353 1 661 2291"], ["website", "www.coachcentre.com"]]
+D, [2012-08-27T10:41:09.195959 #5545] DEBUG -- :   [1m[35m (0.2ms)[0m  COMMIT
+D, [2012-08-27T10:41:10.168481 #5545] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:41:10.169780 #5545] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "robertdavison@sheppardmosocw.comMember"], ["name", "Robert Davison"], ["phone", "0131 226 3399"], ["website", "www.coachcentre.com"]]
+D, [2012-08-27T10:41:10.170212 #5545] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:42:45.557413 #5573] DEBUG -- :   [1m[36mSQL (1.5ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:42:45.567419 #5573] DEBUG -- :   [1m[35mSQL (6.9ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Jan Abbey"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:42:45.567976 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:42:46.560961 #5573] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  BEGIN
+D, [2012-08-27T10:42:46.562378 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "patricia@coachanddevelop.comFounding Member"], ["name", "Patricia Abbott"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:42:46.562791 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:42:47.501441 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:42:47.502770 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "david@dhadams.co.uk Member"], ["name", "David Adams"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:42:47.503173 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:42:48.516385 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:42:48.517698 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "info@fionaadamson.comMember"], ["name", "Fiona Adamson"], ["phone", "01923 492600"], ["website", "www.fionaadamson.com"]]
+D, [2012-08-27T10:42:48.518122 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:42:49.477812 #5573] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:42:49.479228 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Clare Allen"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:42:49.479630 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:42:50.446266 #5573] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  BEGIN
+D, [2012-08-27T10:42:50.448019 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "richarda@create-the-future.co.ukMember"], ["name", "Richard Andrews"], ["phone", "0131 561 6283"], ["website", nil]]
+D, [2012-08-27T10:42:50.448530 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:42:51.435073 #5573] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:42:51.436584 #5573] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "trudy@dancingleopards.comFounding Council Member"], ["name", "Trudy Arthurs"], ["phone", "028 9059 2422"], ["website", "www.dancingleopards.com"]]
+D, [2012-08-27T10:42:51.437100 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:42:52.413327 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:42:52.414685 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "jill@paradigmcollective.co.uk Member"], ["name", "Jill Ashley-Jones"], ["phone", "01684 566001"], ["website", "www.jillashley-jones.co.uk"]]
+D, [2012-08-27T10:42:52.415109 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:42:53.411953 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:42:53.413374 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "linda@aspey.comMember"], ["name", "Linda Aspey"], ["phone", "0845 170 1300"], ["website", "www.aspey.com"]]
+D, [2012-08-27T10:42:53.413847 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:42:54.452681 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:42:54.454056 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "maureen@theatkins.org.ukMember"], ["name", "Maureen Atkins"], ["phone", "0118 9732717"], ["website", "www.smartcoaching.me.uk"]]
+D, [2012-08-27T10:42:54.454475 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:42:55.408923 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:42:55.410239 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Shirley Attenborough"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:42:55.410701 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:42:56.449290 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:42:56.450689 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "cb@my-coach.orgMember"], ["name", "Christina Bachini"], ["phone", "0118 9790677"], ["website", "www.my-coach.org"]]
+D, [2012-08-27T10:42:56.451116 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:42:57.426807 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:42:57.428138 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "awnb@newtonbagshawe.co.ukFounding Member"], ["name", "Anthony Bagshawe"], ["phone", "01969 667896"], ["website", nil]]
+D, [2012-08-27T10:42:57.428549 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:42:58.430511 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:42:58.431873 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", nil], ["name", "Adrian Bailey"], ["phone", "Please use email contact in first instance"], ["website", "www.peoplefanclub.co.uk"]]
+D, [2012-08-27T10:42:58.432283 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:42:59.451307 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:42:59.452626 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Liz Barnes"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:42:59.453020 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:00.466341 #5573] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  BEGIN
+D, [2012-08-27T10:43:00.467748 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "william@creatinginsight.co.ukMember"], ["name", "William Barron"], ["phone", "01332 224389"], ["website", nil]]
+D, [2012-08-27T10:43:00.468503 #5573] DEBUG -- :   [1m[35m (0.4ms)[0m  COMMIT
+D, [2012-08-27T10:43:01.427548 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:01.428863 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Sally Baxter"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:01.429258 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:02.445955 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:02.447327 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "nick_beard@btinternet.comMember"], ["name", "Nick Beard"], ["phone", "0118 983 6050"], ["website", nil]]
+D, [2012-08-27T10:43:02.447744 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:03.462024 #5573] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:03.463411 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "chrissie@aimhighcoaching.co.ukMember"], ["name", "Chrissie Bedwin"], ["phone", "01773 836392"], ["website", nil]]
+D, [2012-08-27T10:43:03.463954 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:04.469506 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:04.470907 #5573] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", nil], ["name", "Annie Bennett"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:04.471330 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:08.911040 #5573] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:08.912805 #5573] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Norinne Betjemann"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:08.913341 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:09.850612 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:09.852052 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "neelab@article13.comMember"], ["name", "Neela Bettridge"], ["phone", "020 8840 4450"], ["website", nil]]
+D, [2012-08-27T10:43:09.852466 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:10.816898 #5573] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:10.818819 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "peter@thebeechconsultancy.co.ukMember"], ["name", "Peter Blackeby"], ["phone", "08454 303021 (office)"], ["website", "www.yorkcd.co.uk"]]
+D, [2012-08-27T10:43:10.819323 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:11.760213 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:11.761557 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "amanda@amandabouchconsulting.co.ukAC Honorary Life Fellow"], ["name", "Amanda Bouch"], ["phone", "01628 635 900"], ["website", nil]]
+D, [2012-08-27T10:43:11.762097 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:12.702458 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:12.703874 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Jacquelyn Bownes"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:12.704448 #5573] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:13.663986 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:13.665303 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "david@4sight.bizMember"], ["name", "David Bredin"], ["phone", "0845 3457043"], ["website", nil]]
+D, [2012-08-27T10:43:13.665716 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:14.676752 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:14.678111 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Jane Brendgen"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:14.678599 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:15.695079 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:15.696411 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "sarah-briggs@hotmail.comCombined"], ["name", "Sarah Briggs"], ["phone", "01666 825996"], ["website", "www.counselling.org"]]
+D, [2012-08-27T10:43:15.696827 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:16.668591 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:16.669912 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "Halina@brunningonline.net Founding Member"], ["name", "Halina Brunning"], ["phone", "020 8540 9609 "], ["website", nil]]
+D, [2012-08-27T10:43:16.670323 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:17.632233 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:17.633561 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "kate@executive-coaching.co.ukMember + FOMr"], ["name", "Kate Buller"], ["phone", "020 7795 6556"], ["website", "www.executive-coaching.co.uk"]]
+D, [2012-08-27T10:43:17.633981 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:18.596057 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:18.597379 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Clare Burgum"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:18.597863 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:19.569687 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:19.571060 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", nil], ["name", "Joy Bussell"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:19.571453 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:20.528990 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:20.530303 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "elspeth@elspethcampbell.comFounding Member"], ["name", "Elspeth Campbell"], ["phone", "020 8788 3795"], ["website", nil]]
+D, [2012-08-27T10:43:20.530732 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:21.505753 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:21.507165 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "campbellsharon@eircom.netMember"], ["name", "Sharon Campbell"], ["phone", "354000000000"], ["website", "www.campbellconsulting.ie"]]
+D, [2012-08-27T10:43:21.507597 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:22.481354 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:22.483189 #5573] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Anita Chanda"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:22.483626 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:23.485366 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:23.486695 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "Helen.Chapman@pelicancoaching.comFounding Member"], ["name", "Helen Chapman"], ["phone", "01943 466105"], ["website", "www.pelicancoaching.com"]]
+D, [2012-08-27T10:43:23.487117 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:24.505169 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:24.506778 #5573] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Ray Charlton"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:24.507330 #5573] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:25.496378 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:25.497820 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", nil], ["name", "Dorothea Ciniglio"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:25.498211 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:26.431253 #5573] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:26.432731 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "ianclaffey@oxondon.comMember"], ["name", "Ian Claffey"], ["phone", "+44 (0)8450559600"], ["website", nil]]
+D, [2012-08-27T10:43:26.433177 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:27.414560 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:27.416003 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "info@wordsinaction.netFounding Member"], ["name", "Alison Clark"], ["phone", "01700 500489"], ["website", nil]]
+D, [2012-08-27T10:43:27.416574 #5573] DEBUG -- :   [1m[35m (0.2ms)[0m  COMMIT
+D, [2012-08-27T10:43:29.955887 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:29.957190 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Sue Clarke"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:29.957581 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:30.983539 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:30.984883 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", nil], ["name", "Suzanne Cleal"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:30.985281 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:31.956075 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:31.957459 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "lorenzaclifford@coachange.co.ukMember"], ["name", "Lorenza Clifford"], ["phone", "01264 739 480"], ["website", "www.coachange.co.uk"]]
+D, [2012-08-27T10:43:31.957890 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:32.983884 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:32.985294 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "j.c.a@blueyonder.co.ukMember"], ["name", "Judi Conner"], ["phone", "+44 (0)208 995 5769"], ["website", "www.judiconner.com"]]
+D, [2012-08-27T10:43:32.985729 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:33.989823 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:33.991143 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Stephanie Conway"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:33.991534 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:34.989992 #5573] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  BEGIN
+D, [2012-08-27T10:43:34.991635 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "lynne@changeperspectives.comCouncil Member"], ["name", "Lynne Cooper"], ["phone", "020 8255 4244"], ["website", "www.changeperspectives.co.uk"]]
+D, [2012-08-27T10:43:34.992110 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:35.961994 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:35.963328 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Mary Cope"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:35.963721 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:36.997587 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:36.998933 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "admin@morpheuscoaching.co.ukMember"], ["name", "Vincent Cornelius"], ["phone", "07947 884380"], ["website", nil]]
+D, [2012-08-27T10:43:36.999342 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:37.971606 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:37.972928 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Judi Craddock"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:37.973324 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:38.978115 #5573] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  BEGIN
+D, [2012-08-27T10:43:38.979858 #5573] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "andycraig@stantonmarris.comMember"], ["name", "Andrew Craig"], ["phone", "+44(0)20 3008 4461"], ["website", "www.boardcoaching.com"]]
+D, [2012-08-27T10:43:38.980550 #5573] DEBUG -- :   [1m[35m (0.2ms)[0m  COMMIT
+D, [2012-08-27T10:43:39.938214 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:39.939582 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "Kareen@CranstonCognition.co.ukMember"], ["name", "Kareen Cranston"], ["phone", "01727 869510"], ["website", nil]]
+D, [2012-08-27T10:43:39.939999 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:40.902129 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:40.903489 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "contact@nickcromwellcoaching.co.ukMember"], ["name", "Nick Cromwell"], ["phone", "020 8556 8370"], ["website", nil]]
+D, [2012-08-27T10:43:40.903902 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:41.891158 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:41.892466 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Edna Crosby"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:41.892859 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:42.907226 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:42.908542 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", nil], ["name", "Mary Cross"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:42.908929 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:43.882515 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:43.883930 #5573] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "marycurran@coachcentre.comFounding Member"], ["name", "Mary Curran"], ["phone", "00353 1 661 2291"], ["website", "www.coachcentre.com"]]
+D, [2012-08-27T10:43:43.884361 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:44.856260 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:44.857795 #5573] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", "paul@theexcellencegame.co.ukMember"], ["name", "Paul Curran"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:44.858460 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:45.821529 #5573] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:45.823320 #5573] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", nil], ["name", "Pom Davey"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:45.823919 #5573] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+D, [2012-08-27T10:43:46.794389 #5573] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  BEGIN
+D, [2012-08-27T10:43:46.795754 #5573] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)[0m  [["email", nil], ["name", "Eddie Davies"], ["phone", nil], ["website", nil]]
+D, [2012-08-27T10:43:46.796150 #5573] DEBUG -- :   [1m[35m (0.1ms)[0m  COMMIT
+D, [2012-08-27T10:43:47.766096 #5573] DEBUG -- :   [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+D, [2012-08-27T10:43:47.767576 #5573] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO `details` (`email`, `name`, `phone`, `website`) VALUES (?, ?, ?, ?)  [["email", "robertdavison@sheppardmosocw.comMember"], ["name", "Robert Davison"], ["phone", "0131 226 3399"], ["website", nil]]
+D, [2012-08-27T10:43:47.768103 #5573] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
