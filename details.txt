@@ -1,5 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.61, for debian-linux-gnu (i686)
 --
+
 -- Host: localhost    Database: coach
 -- ------------------------------------------------------
 -- Server version	5.1.61-0ubuntu0.11.10.1
